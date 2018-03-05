@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+		<head>
+				<title>About Me</title>
+				<!-- The scripts below are included to enable the section scrolling feature. The use jQuery and a little Javascript. -->
+				<script src="./lib/jquery-3.3.1.min.js"></script>
+				<script src="./lib/jquery.onepage-scroll.min.js"></script>
+				<link rel="stylesheet" type="text/css" href="./css/onepage-scroll.css">
+				<script>
+					$(document).ready(function() {
+						$('.main').onepage_scroll({
+							sectionContainer: "section",
+							loop: true,
+							pagination: false
+						});
+					});
+				</script>
+
+				<!-- This sheet adds font awesome icons (like the facebook and twitter icons below) -->
+				<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+				<!-- The sheet below is where you will make your CSS changes, ./css/main.css -->
+				<link rel="stylesheet" type="text/css" href="./css/main.css">
+				<link rel="stylesheet" type="text/css" href="./lib/grid.css">
+
+				<!-- Change the link tag below this line to change your fonts! -->
+				<link href="https://fonts.googleapis.com/css?family=Acme|Montserrat" rel="stylesheet">
+		</head>
+
+		<!-- To change the background, change the 'image-background' class on the body element -->
+		<body class = image-background>
+
+			<!-- To remove the pattern overlay, remove the class 'overlay' from the div below -->
+			<div class="overlay"></div>
+
+
+			<!-- Social icons FOR DESKTOP, also change FOR MOBILE section below -->
+			<!-- For more icons, see: http://fontawesome.io/icons/ -->
+			<aside class="grid__col grid__col-1-of-8 desktop">
+				
+				<a href="https://github.com/AmGamm"><i class="fab fa-github fa-2x"></i></a>
+				<a href="mailto: amandagamberale@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a>
+				<a href="https://www.linkedin.com/in/amanda-gamberale"><i class="fab fa-linkedin-in fa-2x"></i></a>
+
+			</aside>
+
+
+			<!-- Main wrapper element -->
+			<main class="grid__col grid__col-5-of-8 grid__col--push-1-of-8 main">
+
+
+					<!-- First Page -->
+					<section class="grid__col grid__col-3-of-5 page text">
+						<article>
+							<span id="hello-text">Greetings!</span>
+							<h3 class="subheader">My name is <span style="color:#239D60">Amanda Gamberale</span>. Though my skills are technical, my interest is users.  Whether I'm working on a process, an application, or a query, my goal is to present a finished product that people will WANT to use, that they feel comfortable using, and that they can't easily break.</h3>
+							<p>Hiring </a> in <i class="fas fa-map-marker-alt"></i> Columbus, Ohio?  Let me know! <a href="mailto: amandagamberale@gmail.com"><i class="fas fa-envelope-open fa"></i></a></p>
+						</article>
+
+						<!-- Social icons FOR MOBILE, also change FOR DESKTOP section above -->
+						<!-- For more icons, see: http://fontawesome.io/icons/ -->
+						<aside class="grid__col grid__col-1-of-8 mobile">
+							<a href="https://github.com/AmGamm"><i class="fab fa-github fa-2x"></i></a>
+							<a href="mailto: amandagamberale@gmail.com"><i class="fas fa-envelope-open fa-2x"></i></a>
+							<a href="https://www.linkedin.com/in/amanda-gamberale"><i class="fab fa-linkedin-in fa-2x"></i></a>
+						</aside>
+					</section>
+					<!-- End First Page -->
+
+
+					<!-- Second Page -->
+					<section class="grid__col grid__col-3-of-5 page text">
+						<h2>How did I get here?</h2>
+						<article>
+							<img src="./images/me.jpg" class="circular-square image-left">
+							<p>In 2004, I graduated from The Ohio State University with a Bachelor of Arts in Interactive Communications.  Four years later, I went back to school for a Master's of Science in Marketing Communications at Franklin University.  A decade later, I find myself back in the classroom, but this time, I'm learning to communicate with something other than humans….</p>
+							<p>In May 2017, I heard about <a href="https://www.techelevator.com">Tech Elevator</a>, a coding boot camp that promised to turn me into a jr. software developer in just 14 weeks.  I couldn't enroll fast enough and by January 2018, I was attending my first classes.  It has been the most challenging, fulfilling, and weirdly fun thing I've ever done for myself.  </p>
+							<p>I've been working as a software and web developer since mid-2015, but if you'd asked me about going that route in 2014, I couldn't have imagined myself capable of doing all of this "mathy" work. I'd been dabbling in HTML and CSS for years, but saw anything more complex than that as wizardry.</p>
+							<p>That's why I love teaching <a href="https://www.techelevator.com/upcoming-events/2018/2/27/women-wine-web-design-columbus">Women, Wine and Web Design</a> in partnership with <a href="https://www.techelevator.com/">Tech Elevator</a>. I've made it my mission to show more women just how creative and interesting this work can be, and that (as a general rule) developers aren't unapproachable supergeniuses, they're just people who learned how to do something new.</p>
+						</article>
+					</section>
+					<!-- End Second Page -->
+
+
+					<!-- Third Page -->
+					<section class="grid__col grid__col-3-of-5 page text">
+						<h2>Other things...</h2>
+						<p>When I'm not face deep in school work, I enjoy researching my next meal, attempting to garden, and hanging out with my husband, Dave, and dog, Lana. </p>
+						<article class="image-box">
+							<img src="./images/Lana.jpg" class="image-scaled image-shadow image-border">
+							<img src="./images/oysters.jpg" class="image-scaled image-shadow image-border">
+							<img src="./images/garden.jpg" class="image-scaled image-shadow image-border">
+							
+						</article>			
+					</section>
+					<!-- End Third Page -->
+
+
+					
+
+			</main>
+		</body>
+</html>
