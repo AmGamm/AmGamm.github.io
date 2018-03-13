@@ -70,7 +70,7 @@ p {
     font-size: 20vmin; /* 'hello' text text size */
     line-height: 20vmin;
     font-family: 'Acme', serif; /* 'hello' text font family */
-    color: #239D60; /* 'hello' text text color */
+    color: #CD5C5C; /* 'hello' text text color */
 }
 
 section > h2 { /* section header text */
@@ -90,12 +90,12 @@ section > h2 { /* section header text */
 aside > a { 
     border: none;
     text-decoration: none;
-    color: #F7F39A; /* icon color */
+    color: #CD5C5C; /* icon color */
 }
 
 aside > a:visited {
     text-decoration: none;
-    color: #F7F39A; /* visited icon color */
+    color: #CD5C5C; /* visited icon color */
 }
 
 
@@ -290,7 +290,7 @@ section.page > .image-box > img {
 /* fullscreen background image */
 .image-background {
     background-color: #DD7F77;
-    background-image: url(../images/stock-images/multicolor-diamond-tiles.jpg);
+    background-image: url(../images/stock-images/pier.jpg);
     background-position: 50% 25%;
     background-repeat: no-repeat;
     z-index: -2;
