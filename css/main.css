@@ -205,7 +205,7 @@ section.page > .image-box > img {
 }
 
 .image-border {
-    border-color: #239D60;
+    border-color: black;
     border-radius: 1%;
     border-style: solid;
     border-width: 2px;
@@ -290,7 +290,7 @@ section.page > .image-box > img {
 /* fullscreen background image */
 .image-background {
     background-color: #DD7F77;
-    background-image: url(../images/stock-images/green-red-gradient.jpg);
+    background-image: url(../images/stock-images/multicolor-diamond-tiles.jpg);
     background-position: 50% 25%;
     background-repeat: no-repeat;
     z-index: -2;
